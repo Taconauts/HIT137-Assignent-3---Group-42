@@ -18,7 +18,7 @@ class ResultsView(tk.Frame):
         ttk.Button(nav, text="Input", command=lambda: controller.show_view("InputView")).pack(side="left", padx=4)
         ttk.Button(nav, text="Results", command=lambda: controller.show_view("ResultsView")).pack(side="left", padx=4)
         ttk.Button(nav, text="About", command=lambda: controller.show_view("AboutView")).pack(side="left", padx=4)
-        ttk.Button(nav, text="OOP Info", command=lambda: controller.show_view("OOPInfoView")).pack(side="left", padx=4)
+        ttk.Button(nav, text="OOP Info", command=lambda: controller.show_view("OOPInfoView")).pack(side="left", padx=4)  
 
         tk.Label(self, text="Model Outputs", font=("Helvetica", 14, "bold")).pack(pady=8)
 
